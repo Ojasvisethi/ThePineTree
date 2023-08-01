@@ -1,0 +1,119 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 600px;
+  margin-top: 8px;
+  border-radius: 12px;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.dash {
+  color: white;
+  font-size: 2.4rem;
+  margin-top: 20px;
+  text-align: center;
+}
+.menu {
+  width: 100%;
+  margin-bottom: 8px;
+  border-radius: 15px;
+  /* background-image: linear-gradient(
+    rgba(46, 40, 40, 0.658),
+    rgba(39, 32, 32, 0.61)
+  ); */
+}
+
+.control li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 98%;
+  padding-right: 4px;
+  height: 100px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-size: large;
+  color: white;
+}
+
+/* This works because react-router places the active class on the active NavLink */
+/* .link {
+  background-color: white;
+  width: 80px;
+  height: 30px;
+  color: black;
+} */
+
+.field {
+  color: rgba(255, 255, 255, 0.445);
+  align-self: center;
+}
+
+.field:hover {
+  color: white;
+}
+
+.link {
+  font-size: 23px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  width: 80%;
+}
+
+li a {
+  display: block;
+  height: 40px;
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.link:global(.active) {
+  background-color: white;
+  padding-right: 15px;
+  padding-left: 15px;
+  color: black;
+  box-shadow: 2px 2px 2px white;
+  font-size: 23px;
+}
+
+.sideLink {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 150px;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-decoration: none;
+  list-style: none;
+  height: 500px;
+  width: 100%;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 760px) {
+  .link {
+    font-size: 16px;
+  }
+  .link:global(.active) {
+    font-size: 16px;
+  }
+  .dash {
+    font-size: 23px;
+  }
+}

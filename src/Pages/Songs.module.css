@@ -1,0 +1,102 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 73%;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 12px;
+  margin-right: 7px;
+  margin-left: 30px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.song {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 30px;
+  justify-content: space-around;
+  box-shadow: 1px 1px 1px rgb(41, 49, 45);
+  padding: 20px 20px;
+  color: white;
+  height: 250px;
+  border-radius: 12px;
+}
+
+img {
+  height: 110px;
+  width: 110px;
+  border-radius: 6px;
+}
+
+.AllSongs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.header {
+  display: flex;
+  font-size: 3rem;
+  margin-left: 40px;
+  font-family: Inter;
+  justify-content: space-between;
+  width: 90%;
+  height: 100px;
+  align-items: center;
+}
+
+.search_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search_icon {
+  scale: 0.4;
+  position: absolute;
+  z-index: 2;
+  top: 39px;
+}
+
+.in {
+  color: rgba(167, 163, 163, 0.822);
+  margin-top: 10px;
+  margin-left: 0px;
+  height: 40px;
+  width: 20vw;
+  background-color: rgba(152, 188, 221, 0.438);
+  border-radius: 20px;
+  font-size: 1.1rem;
+  padding: 4px 10px;
+  padding-left: 40px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 750px) {
+  .header {
+    font-size: 2rem;
+  }
+  .search_icon {
+    font-size: 3rem;
+  }
+}
+
+.Pagi {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  font-family: Roboto;
+}
+
+.showAll {
+  border: none;
+  color: rgb(74, 80, 85);
+  font-size: 25px;
+  background-color: inherit;
+}

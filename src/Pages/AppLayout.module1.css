@@ -1,0 +1,16 @@
+.app {
+  display: flex;
+  background-image: linear-gradient(
+    #683e3e,
+    #3b1f1f,
+    #1d0a0a,
+    #180b0b,
+    #180808,
+    #000000,
+    #080808,
+    #000000,
+    #000000,
+    #000000
+  );
+  z-index: -1;
+}

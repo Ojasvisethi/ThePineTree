@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@500&family=League+Spartan&family=Plus+Jakarta+Sans&family=Roboto:wght@400;500;700&display=swap");
+
+.nav {
+  width: 100vw;
+  font-family: sans-serif;
+  z-index: 2;
+  position: fixed;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1.5fr 4fr 1fr;
+  grid-template-rows: 50px;
+  grid-column-gap: 50px;
+  grid-row-gap: 0px;
+  padding-bottom: 10px;
+}
+
+.pagenav {
+  background-color: #151a27;
+  z-index: 10;
+}
+
+.mainHead {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 5px;
+  margin-top: 8px;
+}
+
+.main1 {
+  text-transform: none;
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 3px;
+}
+.main2 {
+  text-transform: none;
+  font-weight: 100;
+  font-size: 13px;
+  padding-left: 2px;
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.fields {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  padding-left: 0px;
+  font-family: Plus Jakarta Sans;
+}
+
+.lin {
+  font-weight: 300;
+  font-size: 20px;
+  width: 150px;
+  height: 30px;
+  color: white;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+}
+
+.logbtn {
+  font-weight: 300;
+  font-size: 20px;
+  width: 100px;
+  height: 25px;
+  color: white;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  background-color: #37c25e;
+  border-radius: 6px;
+  padding: 4px 10px;
+}
+
+.login {
+  justify-self: center;
+  display: flex;
+  align-items: center;
+}
+
+/* .nav a:link,
+.nav a:visited {
+  text-decoration: none;
+  color: var(--color-light--2);
+
+} */
+
+/* CSS Modules feature */
+
+.logo {
+  height: 30px;
+  width: 30px;
+  padding-right: 3px;
+  border-radius: 50%;
+  align-self: center;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 880px) and (max-width: 1170px) {
+  .main {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1270px) {
+  .main {
+    font-size: 20px;
+  }
+}
+
+.comp {
+  display: flex;
+  /* width: 60vw;
+  margin: 10vw 4vw;
+  /* align-items: center; */
+  justify-self: center;
+  font-family: Roboto;
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    height: 70vh;
+    width: 300px;
+  }
+  .main {
+    font-size: 10px;
+  }
+  .lin {
+    font-size: 10px;
+  }
+  .label {
+    font-size: 20px;
+  }
+  .data {
+    font-size: 20px;
+    height: 20px;
+  }
+  .nav {
+    grid-column-gap: 55px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .fields {
+    justify-content: flex-end;
+    padding-right: 20px;
+  }
+}

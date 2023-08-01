@@ -1,0 +1,87 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 900px;
+  margin-left: 4px;
+  margin-top: 8px;
+  margin-right: 10px;
+  border-radius: 12px;
+  width: 300px;
+  font-family: sans-serif;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  color: var(--color-light--1);
+}
+
+.menu {
+  width: 100%;
+  margin-bottom: 8px;
+  border-radius: 15px;
+  /* background-image: linear-gradient(
+    rgba(46, 40, 40, 0.658),
+    rgba(39, 32, 32, 0.61)
+  ); */
+  background-color: rgba(0, 0, 0, 0.616);
+}
+
+a {
+  text-decoration: none;
+  font-size: large;
+  color: white;
+}
+
+/* This works because react-router places the active class on the active NavLink */
+.link {
+  background-color: white;
+  width: 80px;
+  height: 30px;
+  color: black;
+}
+
+.ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style: none;
+  height: 100px;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.field {
+  color: rgba(255, 255, 255, 0.445);
+  align-self: center;
+}
+
+.ul li {
+  width: 100%;
+  padding: 0px;
+  align-items: center;
+}
+
+.field:hover {
+  color: white;
+}
+
+li a:global(.active) {
+  color: var(--color-brand--2);
+  font-size: 1.4rem;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-decoration: none;
+  list-style: none;
+  height: 400px;
+  width: 100%;
+  padding-bottom: 20px;
+}

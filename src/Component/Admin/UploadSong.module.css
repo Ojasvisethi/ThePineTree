@@ -1,0 +1,82 @@
+.form {
+  margin-top: 10px;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: inherit;
+  width: 100%;
+  height: 390px;
+  justify-content: flex-start;
+  font-family: Inter;
+  margin-top: 100px;
+}
+
+.upfile {
+  display: flex;
+  justify-content: space-between;
+  width: 340px;
+  align-items: center;
+  margin-top: 20px;
+  color: white;
+}
+
+.upfile .input {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+  height: 30px;
+  background-color: inherit;
+  border: 1px solid #a7aab5;
+  box-shadow: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  color: black;
+  border-radius: 8px;
+  background-color: white;
+  width: 200px;
+}
+
+.upfile label {
+  color: white;
+}
+
+.input {
+  /* border: 2px solid rgba(37, 48, 42, 0.616); */
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 310px;
+  margin: 10px 0px;
+  color: white;
+}
+
+.btn {
+  color: black;
+  padding: 0.8rem 0.6rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: sans-serif;
+  width: 100px;
+  margin-top: 10px;
+  align-self: center;
+  font-weight: 700;
+  margin-left: 20px;
+  background-color: rgb(255, 253, 253);
+  margin-bottom: 5px;
+  align-self: center;
+}
+
+.backDash {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  font-size: 30px;
+  color: white;
+}

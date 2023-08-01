@@ -1,0 +1,48 @@
+.container {
+  margin-top: 42px;
+  border-radius: 10px;
+  width: 80%;
+  height: 100vh;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.header {
+  font-size: 3rem;
+  font-family: Roboto;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+}
+
+.field {
+  background-color: #404657;
+  width: 50vw;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-family: Roboto;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: white;
+}

@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=League+Spartan&family=Roboto:wght@700&display=swap");
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-left: 50px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1076px;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 12px;
+  height: 84vh;
+  /* font-family: "Inter"; */
+}
+
+.showAll {
+  border: none;
+  color: #310058;
+  font-size: 18px;
+  background-color: inherit;
+}
+
+.listheader {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 60px;
+  font-family: Inter;
+  font-size: 23px;
+}
+
+.btn {
+  margin-left: 20px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.438);
+  color: white;
+  border: none;
+}
+
+.search_icon {
+  scale: 0.4;
+  position: absolute;
+  z-index: 2;
+  top: 39px;
+}
+
+.in {
+  color: rgba(0, 0, 0, 0.822);
+  margin-top: 10px;
+  margin-left: 0px;
+  height: 40px;
+  width: 16vw;
+  background-color: rgba(152, 188, 221, 0.438);
+  border-radius: 20px;
+  font-size: 1.1rem;
+  padding: 4px 10px;
+  padding-left: 40px;
+  margin-right: 10px;
+  border: none;
+}
+
+.search {
+  margin-top: 10px;
+  margin-left: 0px;
+  height: 40px;
+  width: 150px;
+  background-color: rgba(152, 188, 221, 0.438);
+  border-radius: 20px;
+  font-size: 1.1rem;
+  margin-right: 10px;
+  border: none;
+}
+
+.search_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  font-size: 3rem;
+  margin-left: 40px;
+  font-family: Inter;
+  justify-content: space-between;
+  width: 90%;
+  height: 100px;
+  align-items: center;
+}
+
+.img {
+  height: 70%;
+  width: 80%;
+  background-color: white;
+  border-radius: 12px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.song {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  justify-content: center;
+  background-color: #d9d9d9;
+  box-shadow: 1px 1px 10px #726668;
+  align-items: center;
+  color: black;
+  border-radius: 12px;
+  width: 12vw;
+  height: 9vw;
+}
+
+.genName {
+  font-size: 2vw;
+  padding: 0px 5px;
+  font-family: Roboto;
+}
+
+img {
+  height: 110px;
+  width: 110px;
+  border-radius: 6px;
+}
+
+.Player {
+  position: fixed;
+  top: 558px;
+  left: 0px;
+  width: 100%;
+}
+
+.Pagi {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  font-family: Roboto;
+}
+
+.showAll {
+  border: none;
+  color: rgb(74, 80, 85);
+  font-size: 25px;
+  background-color: inherit;
+}
+
+.back {
+  background-color: inherit;
+  font-size: 30px;
+  width: 20px;
+  border: none;
+}
+
+.AllSongs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 400px;
+}

@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=League+Spartan&family=Roboto:wght@700&display=swap");
+
+.player_container {
+  width: 100%;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: flex-start;
+  background-color: #404657;
+  height: 90px;
+}
+
+.text {
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.title {
+  color: white;
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+.navigation {
+  width: 300px;
+  align-self: center;
+}
+.navigation_wrapper {
+  min-width: 100%;
+  background-color: rgb(75, 48, 38);
+  height: 5px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.seek_bar {
+  width: 1;
+  height: 100%;
+  background-color: rgb(24, 128, 3);
+  border-radius: 30px;
+}
+
+.con {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  align-items: center;
+  padding-left: 300px;
+}
+
+.control {
+  width: 400px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 150px;
+  margin-right: 100px;
+}
+
+.btn {
+  margin-left: 1px;
+}
+
+.btn img {
+  height: 80px;
+  width: 80px;
+}
+
+.controls {
+  font-size: inherit;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.btn_action {
+  font-size: 1.5rem;
+  margin: 0 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+
+  &:hover {
+    color: blue;
+  }
+}
+
+.pp {
+  font-size: 2.5rem;
+  border: none;
+}
+
+.sliderContainer {
+  --progress-bar-height: 10px;
+}
+
+.sliderContainer {
+  position: relative;
+  width: 100%;
+  background-color: #deb9fc;
+  height: 5px;
+}
+
+.sliderContain {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  color: white;
+  align-items: center;
+}
+
+.songname {
+  font-size: 1.5rem;
+  color: white;
+  font-family: Inter;
+}
+
+.dash {
+  margin-left: 20px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.namGen {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+  padding-left: 10px;
+}
+
+.genre {
+  font-size: 0.9rem;
+  color: white;
+  font-family: Inter;
+  padding-top: 10px;
+}
+
+.dash img {
+  height: 30px;
+  width: 40px;
+  padding: 4px;
+}
+
+.Name {
+  display: flex;
+  align-items: center;
+}
+
+.sound {
+  height: 40px;
+  width: 40px;
+  padding-right: 10px;
+}
+
+/* Background */
+/* .sliderContainer::before {
+  content: "";
+  background-color: #ffffff;
+  width: 100%;
+  height: 1px;
+  display: block;
+  position: absolute;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+} */
+
+/* Custom Progress Bar */
+.progressBarCover {
+  position: absolute;
+  height: 6px;
+  display: block;
+  border-radius: 10px;
+  z-index: 1;
+  top: 70%;
+  width: 0%;
+  transform: translateY(-50%);
+  user-select: none;
+  pointer-events: none;
+  background-color: #cd8eff;
+}
+
+.range {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 7px;
+  width: 100%;
+  cursor: pointer;
+  opacity: 0;
+  margin: 0px;
+}
+
+.sliderContainer {
+  --thumb-width: 20px;
+  --thumb-height: 20px;
+}
+
+/* .range::-webkit-slider-thumb {
+  width: 20px;
+  height: 0px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-appearance: none;
+} */
+
+.thumb {
+  width: 15px;
+  height: 13px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.753);
+  background-color: rgb(44, 44, 44);
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  z-index: 3;
+  transform: translate(0%, -50%);
+  pointer-events: none; /* Remove pointer events on thumb so user can click on the actual thumb beaneath it!  */
+  user-select: none;
+}

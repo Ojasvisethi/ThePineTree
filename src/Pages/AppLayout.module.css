@@ -1,0 +1,98 @@
+.app {
+  display: flex;
+  z-index: -1;
+  height: 100vh;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  background-color: #151a27;
+}
+
+.reminder {
+  position: fixed;
+  background-color: rgb(195, 199, 202);
+  width: 97%;
+  font-family: Inter;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding-right: 80px;
+  scale: 1.5;
+}
+
+@media screen and (max-width: 760px) {
+  .sidebar {
+    width: 150px;
+  }
+}
+
+.Player {
+  position: fixed;
+  top: 558px;
+  left: 0px;
+  width: 100%;
+}
+
+.user {
+  position: absolute;
+  top: 2.6rem;
+  right: 1.2rem;
+  background-color: var(--color-dark--1);
+  border-radius: 50%;
+  z-index: 999;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 0px 5px;
+  padding-top: 12px;
+  height: 30px;
+  width: 30px;
+}
+
+.user img {
+  border-radius: 100px;
+  height: 4rem;
+}
+
+.logout {
+  position: absolute;
+  top: 5.5rem;
+  right: 2.2rem;
+  height: fit-content;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #151a27;
+  padding-left: 5px;
+  font-family: Inter;
+  padding: 2px 7px;
+}
+
+.logbtn {
+  padding: 6px 0px;
+  border: none;
+  background-color: inherit;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.admin {
+  width: 94%;
+  padding: 6px 0px;
+  background-color: inherit;
+  color: white;
+  font-size: 15px;
+  border-bottom: 2px solid rgb(146, 139, 139);
+}

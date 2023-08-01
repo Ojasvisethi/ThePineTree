@@ -1,0 +1,39 @@
+.SongSection {
+  background-color: #be8080;
+  font-family: Inter;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  align-items: center;
+  margin-right: 18px;
+  border-radius: 6px;
+  margin-top: 10px;
+  padding: 10px 30px;
+  margin-right: 10px;
+}
+
+.active {
+  background-color: #adf8e1;
+}
+
+.NamAr {
+  display: flex;
+  justify-content: space-between;
+  width: 29vw;
+}
+
+.showAll {
+  border: none;
+  color: #310058;
+  font-size: 18px;
+  background-color: inherit;
+}
+
+@media screen and (max-width: 750px) {
+  .NamAr {
+    font-size: 12px;
+  }
+  .showAll {
+    font-size: 14px;
+  }
+}
